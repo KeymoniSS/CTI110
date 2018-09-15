@@ -49,45 +49,32 @@ print('\nThank you have a nice day!')
 # Pseudocode:
 # Print "Welcome to Fast Freight Shipping Company" and add line break
 # Prompt user to enter a weight of a package in pounds
-# weight is set to user input
-# Save value
-# To calculate the rate per pound for each condition declare 4 variables:
-# FUNCTION getshipping_charge1 (FLOAT width)
-# shipping_charge1 = 1.50 * weight
-# RETURN shipping_charge1
-# END FUNCTION
-# FUNCTION getshipping_charge2 (FLOAT width)
-# shipping_charge2 = 3.00 * weight
-# RETURN shipping_charge2
-# END FUNCTION
-# FUNCTION getshipping_charge3 (FLOAT width)
-# shipping_charge3 = 4.00 * weight
-# RETURN shipping_charge3
-# END FUNCTION
-# FUNCTION getshipping_charge4 (FLOAT width)
-# shipping_charge4 = 4.75 * weight
-# RETURN shipping_charge4
-# END FUNCTION
+# Get the weight
+# Save input
+# Calculate the rate per pound for each condition and set variables for each condition
+# Get the rate per pound for shipping_charge1
+# Get the rate per pound for shipping_charge2
+# Get the rate per pound for shipping_charge3
+# Get the rate per pound for shipping_charge4
 # Save values
-# Insert line break
-#   Print "Calculating..."
-# IF the weight = 0 THEN:
-#   Display output: "Error: In order for shipping charges to apply, the package must weighs over 0 pounds/lb."
-# END IF
-# ELIF a weight of 2 pounds or less is pressed DO:
-#   Display output: "The cost of shipping for this package is: $" + shipping_charge1
-# ELIF a weight of over 2 pounds but not more than 6 pounds is pressed DO:
-#   Display output: "The cost of shipping for this package is: $" + shipping_charge2
-# ELIF a weight of over 6 pounds but not more than 10 pounds is pressed DO:
-#   Display output: "The cost of shipping for this package is: $" + shipping_charge3
-# ELIF a weight of over 10 pounds is pressed DO:
-#   Display output: "The cost of shipping for this package is: $" + shipping_charge4
-# END ELIF
-# IF the weight < 0 THEN:
-#   Display output: "Error: In order for shipping charges to apply, the package must weighs over 0 pounds/lb."
-# END IF
-# Insert line break
-# Display output: "Thank you have a nice day!"
+# Set Conditions for ifs, elifs, and else:
+# If the input weight = 0 display error
+#
+# Else-if (elif) the input weight is 2 pounds or less:
+#                Print "The cost of shipping for this package is: $" + Display the result for shipping_charge1
+#
+# Else-if (elif) the input weight is over 2 pounds but not more than 6 pounds:
+#                Print "The cost of shipping for this package is: $" + Display the result for shipping_charge2
+#
+# Else-if (elif) the input weight is over 6 pounds but not more than 10 pounds:
+#                Print "The cost of shipping for this package is: $" + Display the result for shipping_charge3
+#
+# Else if the input weight is over 10 pounds:
+#                Print "The cost of shipping for this package is: $" + Display the result for shipping_charge4
+#
+# Present error message if package is less than 0 as well
+#
+# Print "Thank you have a nice day!"
 
 
 
