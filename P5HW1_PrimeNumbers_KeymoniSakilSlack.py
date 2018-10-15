@@ -1,4 +1,4 @@
-# This program takes an integar inputed by the user user and returns true if the argunet is a prime number or false if it is not..
+# This program takes an integer inputted by the user and returns true if the argument is a prime number or false if it is not.
 # October 1, 2018
 # CTI-110 P5HW1 - Prime Numbers
 # Keymoni Sakil-Slack
