@@ -1,4 +1,4 @@
-# This progam accepts a number of feet as an argument and returns the number of inches in that many feet.
+#  This program accepts a number of feet as an argument and returns the number of inches in that many feet.
 # October 1, 2018
 # CTI-110 P5T2_FeetToInches 
 # Keymoni Sakil-Slack
