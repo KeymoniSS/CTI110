@@ -1,4 +1,4 @@
-# This program should display my first and last initials
+# This program should display a snowflake.
 # September 19, 2018
 # CTI-110 P4T1 - Turtle Lab
 # Keymoni Sakil-Slack
