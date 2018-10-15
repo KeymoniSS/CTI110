@@ -1,4 +1,4 @@
-# This program should display the percentage of males and females in a class.
+# This program should draw a triangle and square.
 # September 10, 2018
 # CTI-110 P2HW2 - Male Female Percentage
 # Keymoni Sakil-Slack
